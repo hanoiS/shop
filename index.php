@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<script type="text/javascript" language="javascript" src="css/jquery.dataTables.min"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-    $('#myTable').DataTable();
-});
-	</script>
-	<title>test</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <meta charset="UTF-8">
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" >
+        $(document).ready(function() {
+            $('# datatable').dataTable();
+        });
+    </script> 
+    <title>Document</title>
 </head>
 <body>
-	<div class="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-		<strong>Title!</strong> Alert body ...
-	</div>
-	<div class="alert alert-danger">
-		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-		<strong>Title!</strong> Alert body ...
-	</div>
-		<div class="alert alert-info">
-			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-			<strong>Title!</strong> Alert body ...
-		</div>
-<table id="example" class="display" cellspacing="0" width="100%">
+    
+    <table id="datatable" >
         <thead>
             <tr>
                 <th>Name</th>
@@ -504,6 +493,6 @@
             </tr>
         </tbody>
     </table>
-	
+
 </body>
 </html>
