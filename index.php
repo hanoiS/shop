@@ -6,7 +6,7 @@
     <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" >
         $(document).ready(function() {
-            $('# datatable').dataTable();
+            $('#datatable').dataTable();
         });
     </script> 
     <title>Document</title>
